@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.softserve.trainingConnector</groupId>
+	<groupId>a4da3cf9-c145-4eca-81d4-d6702ea8c6c2</groupId>
 	<artifactId>softserve-training-connector</artifactId>
 	<version>1.0.1</version>
 	<packaging>mule-extension</packaging>
@@ -28,4 +28,12 @@
 		</pluginRepository>
 	</pluginRepositories>
 
+	<distributionManagement>
+		<repository>
+			<id>anypoint-exchange</id>
+			<name>Exchange Repository</name>
+			<url>https://maven.anypoint.mulesoft.com/api/v1/organizations/a4da3cf9-c145-4eca-81d4-d6702ea8c6c2/maven</url>
+			<layout>default</layout>
+		</repository>
+	</distributionManagement>
 </project>
